@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/sass/main.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>Hotel &mdash; Your all-in-one booking site</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="/img/logo.png" alt="logo" class="logo" />
+        <form action="#" class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Search hotels"
+          />
+          <button class="search__button">
+            <svg class="search__icon">
+              <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav__notification">7</span>
+          </div>
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav__notification">13</span>
+          </div>
+          <div class="user-nav__user">
+            <img
+              src="img/myphoto.jpg"
+              alt="user photo"
+              class="user-nav__user-photo"
+            />
+            <!-- <div class="user-nav__user-photo"></div> -->
+            <span class="user-nav__user-name">Giorgi</span>
+          </div>
+        </nav>
+      </header>
+      <div class="content">
+        <nav class="sidebar">
+          <ul class="side-nav">
+            <li class="side-nav__item side-nav__item--active">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-home"></use>
+                  <span>Hotel</span>
+                </svg>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
+                  <span>Flight</span>
+                </svg>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-key"></use>
+                  <span>Car</span>
+                </svg>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-map"></use>
+                  <span>Tours</span>
+                </svg>
+              </a>
+            </li>
+          </ul>
+
+          <div class="legal">&copy; 2022 Made by Giorgi Zhorzholiani</div>
+        </nav>
+        <main class="hotel-view">
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img src="img/hotel-1.jpg" alt="h1" class="gallery__photo" />
+            </figure>
+            <figure class="gallery__item">
+              <img src="img/hotel-2.jpg" alt="h2" class="gallery__photo" />
+            </figure>
+            <figure class="gallery__item">
+              <img src="img/hotel-3.jpg" alt="h3" class="gallery__photo" />
+            </figure>
+          </div>
+
+          <div class="overview">
+            <h1 class="overview__heading">Hotel California</h1>
+            <div class="overview__stars">
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star "></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star "></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star "></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star "></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star "></use>
+              </svg>
+            </div>
+            <div class="overview__location">
+              <svg class="overview__icon-location">
+                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+              </svg>
+              <button class="btn-inline">california beach</button>
+            </div>
+            <div class="overview__rating">
+              <div class="overview__rating-avarage">6.9</div>
+              <div class="overview__rating-count">6900 vote</div>
+            </div>
+          </div>
+          <div class="detail">
+            <div class="description">
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+                nisi dignissimos debitis ratione sapiente saepe. Accusantium
+                cumque, quas, ut corporis incidunt deserunt quae architecto
+                voluptate.
+              </p>
+              <p class="paragraph">
+                Accusantium cumque, quas, ut corporis incidunt deserunt quae
+                architecto voluptate delectus, inventore iure aliquid aliquam.
+              </p>
+              <ul class="list">
+                <li class="list__item">close to the beach</li>
+                <li class="list__item">breakfaast included</li>
+                <li class="list__item">free airbort</li>
+                <li class="list__item">free wifi all rooms</li>
+                <li class="list__item">aair contitioning</li>
+                <li class="list__item">pets allowd</li>
+                <li class="list__item">we speak all languages</li>
+                <li class="list__item">perfect for families</li>
+              </ul>
+              <div class="recomend">
+                <p class="recomend__count">
+                  lucy and 3 other friends recomend this hotel
+                </p>
+                <div class="recomend__friends">
+                  <img src="img/user-3.jpg" alt="u1" class="recomend__photo" />
+                  <img src="img/user-4.jpg" alt="u2" class="recomend__photo" />
+                  <img src="img/user-5.jpg" alt="u3" class="recomend__photo" />
+                  <img src="img/user-6.jpg" alt="u4" class="recomend__photo" />
+                </div>
+              </div>
+            </div>
+            <div class="user-reviews">
+              <figure class="review">
+                <blockquote class="review__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+                  doloremque architecto dicta animi, totam, itaque officia ex.
+                </blockquote>
+                <figcaption class="review__user">
+                  <img src="img/user-1.jpg" alt="us1" class="review__photo" />
+                  <div class="review__user-box">
+                    <p class="review__user-name">John Doe</p>
+                    <p class="review__user-date">May 2nd 1999</p>
+                  </div>
+                  <div class="review__rating">8.89</div>
+                </figcaption>
+              </figure>
+
+              <figure class="review">
+                <blockquote class="review__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+                  doloremque architecto dicta animi.
+                </blockquote>
+                <figcaption class="review__user">
+                  <img src="img/user-2.jpg" alt="us2" class="review__photo" />
+                  <div class="review__user-box">
+                    <p class="review__user-name">Lana del ray</p>
+                    <p class="review__user-date">Feb 13th 2001</p>
+                  </div>
+                  <div class="review__rating">4.2</div>
+                </figcaption>
+              </figure>
+              <button class="btn-inline">Show all <span> &rarr;</span></button>
+            </div>
+          </div>
+          <div class="cta">
+            <h2 class="cta__book-now">
+              good news! we have 6 free rooms for your selected dates
+            </h2>
+            <button class="btn">
+              <span class="btn__visible">book now</span>
+              <span class="btn__invisible">Only 6 rooms left</span>
+            </button>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
